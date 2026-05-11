@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+pytest
+httpx
+google-genai
+scikit-learn
+psycopg2-binary

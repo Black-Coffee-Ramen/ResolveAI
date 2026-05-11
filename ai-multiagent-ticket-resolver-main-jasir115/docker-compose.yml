@@ -1,0 +1,29 @@
+services:
+  backend:
+    build: ./backend
+    container_name: ticket-resolver-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend/app:/app/app
+      - ./backend/data:/app/data
+    env_file:
+      - .env
+    networks:
+      - ticket-net
+    command: >
+      uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  frontend:
+    build: ./frontend
+    container_name: ticket-resolver-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    networks:
+      - ticket-net
+    
+networks:
+  ticket-net:
+    driver: bridge

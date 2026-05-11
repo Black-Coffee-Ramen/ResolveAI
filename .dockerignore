@@ -1,0 +1,14 @@
+node_modules
+.next
+.git
+__pycache__
+*.pyc
+.env
+venv
+.venv
+dist
+build
+coverage
+frontend/node_modules
+frontend/.next
+backend/__pycache__
