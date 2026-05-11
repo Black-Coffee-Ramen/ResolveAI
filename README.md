@@ -13,6 +13,7 @@ Support teams drown in repetitive tickets. Automating everything with a naive ch
 
 ## System Architecture
 
+```mermaid
 graph TD
     A[User submits ticket via React UI] --> B[FastAPI POST /tickets]
     B --> C[Safety Precheck]
