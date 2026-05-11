@@ -517,7 +517,7 @@ This project was inspired by:
 
 ---
 
-# Credits & Inspirations
+# Credits
 
 * Multi-agent architecture skeleton adapted from [jasir115/ai-multiagent-ticket-resolver](https://github.com/jasir115/ai-multiagent-ticket-resolver)
 * Safety precheck and hybrid RAG patterns inspired by [pulkitx1/support-triage-agent](https://github.com/pulkitx1/support-triage-agent)
