@@ -515,11 +515,10 @@ This project was inspired by:
 * retrieval-grounded generation systems,
 * and modern internal AI tooling patterns.
 
----
-
-# License
-
-MIT License
+# Credits & Inspirations
+* Multi-agent architecture skeleton adapted from jasir115/ai-multiagent-ticket-resolver
+* Safety precheck and hybrid RAG patterns inspired by pulkitx1/support-triage-agent
+* Built to demonstrate the AI engineering patterns used in enterprise internal tooling – the kind described in GitLab’s “AI-first” transformation.
 
 ---
 
