@@ -13,7 +13,6 @@ Support teams drown in repetitive tickets. Automating everything with a naive ch
 
 ## System Architecture
 
-```mermaid
 graph TD
     A[User submits ticket via React UI] --> B[FastAPI POST /tickets]
     B --> C[Safety Precheck]
@@ -28,7 +27,6 @@ graph TD
     J -- reject --> L[Status → ESCALATED]
     K --> M[Flow Metrics Dashboard]
     L --> M
-```
 
 ## Key Features
 
